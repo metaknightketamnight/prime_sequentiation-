@@ -1,4 +1,5 @@
 '''def PrimeList(num) :
+
 	
 	returns base-10 list of all unique primes 
 	(ie. 4, 8, 16 etc. would all return a list of [2])
