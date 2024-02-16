@@ -11,6 +11,8 @@ def primeFactorization(factorNum): #not super efficient i know lol
 #primeNums = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 
 def isPrime(num): #returns true if prime, false otherwise
+	if num == 2:  #special case cuz 2 fucks this up
+		return True
 	for i in range(2, math.ceil(math.sqrt(num))+1):
 		if num%i ==  0:
 			return False
@@ -55,9 +57,9 @@ def primeSequentializer(inputNum): # prints out the prime serialization of a num
 #print(primeFactorization(144))
 #print(math.ceil(math.sqrt(9)))
 #print(primeLister(1000))
-print(primeSequentializer(100))
-print(primeSequentializer(534))
+#print(primeSequentializer(100))
+#print(primeSequentializer(534))
 
-for i in range(1, 1001):
-	print(primeSequentializer(i))
+#for i in range(1, 1001):
+#	print(primeSequentializer(i))
 
