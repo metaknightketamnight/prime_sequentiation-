@@ -1,0 +1,3 @@
+import prime_finders
+
+prime_finders.brutePrimesHard(5)
