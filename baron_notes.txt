@@ -1,2 +1,10 @@
 PROBLEMS:
 - 2 is a weird number
+
+FUNCTIONS:
+implemented:
+- basic prime finder
+- basic odd non-prime finder
+
+nonimplemented:
+- 
